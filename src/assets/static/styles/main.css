@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+html,
+body {
+  background-image: -moz-linear-gradient(
+      to top,
+      rgba(69, 126, 174, 0.95),
+      rgba(69, 126, 174, 0.95)
+    ),
+    url("../assets/static/images/pic16.jpg");
+  background-image: -webkit-linear-gradient(
+      top,
+      rgba(69, 126, 174, 0.95),
+      rgba(69, 126, 174, 0.95)
+    ),
+    url("../assets/static/images/pic16.jpg");
+  background-image: -ms-linear-gradient(
+      ro top,
+      rgba(69, 126, 174, 0.95),
+      rgba(69, 126, 174, 0.95)
+    ),
+    url("../assets/static/images/pic16.jpg");
+  background-image: linear-gradient(
+      to top,
+      rgba(69, 126, 174, 0.95),
+      rgba(69, 126, 174, 0.95)
+    ),
+    url("../images/pic16.jpg");
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.b-nav {
+  border-bottom: 2px solid #ffffff !important;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-family: "Kaushan Script", cursive;
+}
+.btn-primary {
+  background-color: #ffa71f;
+  border: none;
+}
+.navbar-brand {
+  font-size: xx-large;
+  font-family: "Kaushan Script", cursive;
+}
+
+.navbar-toggler {
+  border-color: #ffffff !important;
+}
+.dropdown-menu {
+  background-color: #457eae !important;
+}
+.dropdown-item {
+  color: #ffffff !important;
+  font-family: "Kaushan Script", cursive;
+}
